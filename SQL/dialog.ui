@@ -13,14 +13,20 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QDialogButtonBox" name="enterBtn">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>330</x>
      <y>370</y>
-     <width>341</width>
-     <height>32</height>
+     <width>201</width>
+     <height>61</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
@@ -29,7 +35,7 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>330</x>

@@ -332,6 +332,7 @@ void MainWindow::on_pushButton_4_clicked()
     //学生修改
 
     flag= true;
+    QMessageBox::critical(this,"提示","带*号的值，不可修改!");
 
     QString id,name,sex,date,minzu,home,IDnumber;
     int year;
@@ -361,6 +362,7 @@ void MainWindow::on_pushButton_4_clicked()
     i = new InputView();
     i->getdata(id,name,sex,year,date,minzu,home,IDnumber);
     i->show();
+
 
     MainWindow::on_pushButton_clicked();
 
@@ -466,6 +468,7 @@ void MainWindow::on_pushButton_11_clicked()
 
 void MainWindow::on_pushButton_13_clicked()
 {
+    QMessageBox::critical(this,"提示","带*号的值，不可修改!");
     int rowToUpData;
     //QMap<int, int> rowMap;
 

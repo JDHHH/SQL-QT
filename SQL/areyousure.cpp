@@ -7,6 +7,10 @@ AreYouSure::AreYouSure(QWidget *parent) :
 {
     ui->setupUi(this);
     setWindowTitle("确认界面");
+
+//    QPalette palette;
+//    palette.setBrush(QPalette::Background,QBrush(QPixmap(":/new/prefix1/images/bg1.jpg").scaled(this->size())));
+//    this->setPalette(palette);
 }
 
 AreYouSure::~AreYouSure()

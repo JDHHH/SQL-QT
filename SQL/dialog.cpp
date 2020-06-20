@@ -14,7 +14,7 @@ Dialog::Dialog(QWidget *parent) :
 
 
     //设置背景图片
-    ui->widget->setAutoFillBackground(true);   // 这个属性一定要设置
+    //ui->widget->setAutoFillBackground(true);   // 这个属性一定要设置
     QPalette palette;
     palette.setBrush(QPalette::Background,QBrush(QPixmap(":/new/prefix1/images/bg3.jpg").scaled(this->size())));
     this->setPalette(palette);

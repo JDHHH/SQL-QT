@@ -2,5 +2,20 @@
     <qresource prefix="/new/prefix1">
         <file>images/bg1.jpg</file>
         <file>images/bg3.jpg</file>
+        <file>images/tianjia.png</file>
+        <file>images/bisai.png</file>
+        <file>images/budenglu.png</file>
+        <file>images/cha.png</file>
+        <file>images/chaxun.png</file>
+        <file>images/danchu.png</file>
+        <file>images/denglutijao.png</file>
+        <file>images/jiating.png</file>
+        <file>images/qianbi.png</file>
+        <file>images/ren.png</file>
+        <file>images/shanchu.png</file>
+        <file>images/tuichu.png</file>
+        <file>images/xiugai.png</file>
+        <file>images/xuanze.png</file>
+        <file>images/xuexiao.png</file>
     </qresource>
 </RCC>
